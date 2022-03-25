@@ -7,9 +7,9 @@ node {
     tag = readFile('commit-id').replace("\n", "").replace("\r", "")
     
     // configura o nome da aplicação, o endereço do repositório e o nome da imagem com a versão
-    appName = "app"
+   // appName = "app"
    // registryHost = "127.0.0.1:30400/"
-    imageName = "${registryHost}${appName}:${tag}"
+   // imageName = "${registryHost}${appName}:${tag}"
     
     // Configuramos os estágios
     
