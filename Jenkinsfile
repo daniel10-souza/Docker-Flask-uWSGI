@@ -13,17 +13,17 @@ node {
     
     // Configuramos os estágios
     
-    stage "Build"
+  //  stage "Build"
 
-        def customImage = docker.build("${imageName}")
+  //      def customImage = docker.build("${imageName}")
 
-    stage "Push"
+ //   stage "Push"
 
-        customImage.push()
+   //     customImage.push()
     
-    stage "Unit Test"
+    //stage "Unit Test"
 
-        teste = "fullstack"
+      //  teste = "fullstack"
 
 
     stage "Deploy PROD"
